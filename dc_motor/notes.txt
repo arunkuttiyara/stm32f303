@@ -1,0 +1,21 @@
+
+TIM15
+
+TIM15
+
+CCMR1_Output
+
+CCER
+
+DCR
+
+MOE
+
+6868
+ARMON>w 0x40014044 0x8000
+ARMON>w 0x40014020 0x11 
+
+
+
+
+

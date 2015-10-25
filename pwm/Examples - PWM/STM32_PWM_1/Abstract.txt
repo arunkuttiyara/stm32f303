@@ -1,0 +1,22 @@
+The 'PWM_1' project is a simple program for the STM32F103RBT6 
+using Keil 'MCBSTM32' Evaluation Board and demonstrating 
+the use of PWM (Pulse Width Modulation) with Timer TIM4.
+
+Example functionality:                                                   
+ - Clock Settings:
+   - XTAL    =            8.00 MHz
+   - SYSCLK  =           72.00 MHz
+   - HCLK    = SYSCLK  = 72.00 MHz
+   - PCLK1   = HCLK/2  = 36.00 MHz
+   - PCLK2   = HCLK    = 72.00 MHz
+   - ADCLK   = PCLK2/6 = 12.00 MHz
+   - SYSTICK = HCLK/8  =  9.00 MHz
+
+ - TIM4 is running at  1Hz.
+   Channel 3 has a duty cicle of 50% and lits LED PB8
+   Channel 4 has a duty cicle of 25% and lits LED PB9
+ 
+The Timer program is available in different targets:
+  Simulator:   - configured for software Simulator
+  MCBSTM32:    - runs from Internal Flash located on chip
+                 (used for production or target debugging)
